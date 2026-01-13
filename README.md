@@ -1,6 +1,6 @@
 # Helix-Smash
-> Một tựa game **Casual/Puzzle** được phát triển bằng Unity.
-> **Gameplay:** Người chơi **nhấn giữ chuột/màn hình** để quả bóng đập xuyên qua các tầng tháp xoắn, tránh các phần nguy hiểm để về đích.
+A **Casual / Puzzle** game developed with Unity.  
+**Gameplay:** Players press and hold the mouse button or screen to smash a ball through a rotating helix tower, avoiding dangerous platforms to reach the finish.
 
 ![Gameplay Demo](https://github.com/maithuong-dev/Helix-Smash/blob/88fda1bed6f5327f9269b4acf0c2ee1f42182366/Gif/GifHelix.gif)
 
@@ -8,33 +8,34 @@
 
 ## Links Demo
 
-* **Video Gameplay:** [Xem trên YouTube](https://youtu.be/V0ipiB5MH38)
-* **Chơi thử:** [Chơi trên web itch.io]( https://maithuong.itch.io/helix-smash)
+- **Gameplay Video:** [YouTube](https://youtu.be/V0ipiB5MH38)
+- **Playable Build:** [Itch.io]( https://maithuong.itch.io/helix-smash)
 
 ---
 
 ## Tech Stack
-* **Engine:** Unity 3D
-* **Language:** C#
-* **Core Tech:** Procedural Generation.
+
+- **Game Engine:** Unity 3D  
+- **Programming Language:** C#  
+- **Core Technology:** Procedural Generation
 
 ---
 
 ## Key Features
 
-* Áp dụng **Singleton Pattern** cho các hệ thống quản lý trung tâm
-(Score, Sound, Level, Data).
-* Sử dụng **Unity Physics** (Rigidbody, Force, Torque) để tạo hiệu ứng vỡ
-vụn cho các khối khi va chạm.
-* Xây dựng hệ thống **Level Spawner** tự động sinh màn chơi với độ khó
-tăng dần.
-* Sử dụng **Coroutines** để quản lý vòng đời đối tượng và dọn dẹp bộ
-nhớ sau khi phá hủy.
-* Lập trình **Dynamic Theme Manager** tự động phối màu theme theo
-thuật toán không gian màu HSV
+- Implemented **Singleton Pattern** for central management systems  
+  (Score, Sound, Level, Data).
+- Utilized **Unity Physics** (Rigidbody, Force, Torque) to create  
+  dynamic destruction effects when the ball collides with platforms.
+- Built an automated **Level Spawner system** that generates levels  
+  procedurally with increasing difficulty.
+- Used **Coroutines** to manage object lifecycle and optimize memory  
+  cleanup after object destruction.
+- Developed a **Dynamic Theme Manager** that automatically generates  
+  color themes using the HSV color space algorithm.
 
 ---
 
-## 📬 Contact
+## Author
 * **Name:** Mai Xuân Thường
 * **Email:** maithuong.dev@gmail.com
