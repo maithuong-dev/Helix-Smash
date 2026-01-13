@@ -2,7 +2,7 @@
 > Một tựa game **Casual/Puzzle** được phát triển bằng Unity.
 > **Gameplay:** Người chơi **nhấn giữ chuột/màn hình** để quả bóng đập xuyên qua các tầng tháp xoắn, tránh các phần nguy hiểm để về đích.
 
-![Gameplay Demo]()
+![Gameplay Demo](https://github.com/maithuong-dev/Helix-Smash/blob/88fda1bed6f5327f9269b4acf0c2ee1f42182366/Gif/GifHelix.gif)
 
 ---
 
